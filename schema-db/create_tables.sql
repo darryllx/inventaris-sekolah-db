@@ -6,10 +6,15 @@
 -- Author      : Darryl Azzuri
 -- =====================================================
 
+-- =====================================================
+-- STATUS FILE : LOCKED
+-- Catatan     :
+-- - Struktur tabel sudah final
+-- - Tidak boleh diubah tanpa diskusi tim
+-- =====================================================
 
--- TABEL MURID
+
 -- Menyimpan data murid yang dapat melakukan peminjaman
-
 CREATE TABLE Murid (
     MuridId INT IDENTITY(1,1) PRIMARY KEY,
     NamaMurid VARCHAR(100) NOT NULL,
